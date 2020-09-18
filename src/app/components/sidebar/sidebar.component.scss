@@ -1,0 +1,51 @@
+#sidebar-wrapper {
+    background: #f5f5f5 !important;
+    min-height: 100vh;
+    // margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+
+    .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+    }
+    .list-group {
+        width: 15rem;
+    }
+}
+
+.snelstart-logo-icon,
+.snelstart-logo-text {
+    background-repeat: no-repeat;
+    background-size: 180px 30px;
+    height: 100%;
+}
+
+.min-width-logo {
+  flex-basis: 30px;
+  min-width: 30px;
+}
+
+.sidebar-heading {
+    background: #fff;
+    img{
+        width:80%;
+    }
+}
+
+.list-group-item {
+    min-height: 47px;
+    background: #f5f5f5;
+    border: 1px solid #fff;
+    color: #3F3F3F;
+    &:hover{
+        background: #dadada;
+    }
+
+    i {
+        font-size: 18px;
+        margin-right: .5em;
+    }
+}

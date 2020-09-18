@@ -1,0 +1,22 @@
+
+
+.actions{
+    padding:15px 0;
+
+    button {
+        margin-right:15px;
+    }
+
+    button.btn-white {
+        background: #fff;
+        border: 1px solid #aaa;
+    }
+}
+
+table.table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom:20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
